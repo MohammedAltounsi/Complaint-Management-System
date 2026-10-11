@@ -6,9 +6,9 @@
 
 A web app for logging and handling customer complaints for online stores on Salla. Arabic, right to left.
 
-[Live demo](https://complaints-saas-demo.vercel.app) · [42-second video tour](media/features-42s.mp4)
+[Live demo](https://complaints-saas-demo.vercel.app) · [20-second screen tour](media/tour-20s.mp4)
 
-<a href="media/features-42s.mp4"><img src="media/teaser-preview.gif" width="260" alt="Preview of the app" /></a>
+<a href="media/tour-20s.mp4"><img src="media/tour-preview.gif" width="260" alt="Preview of the app" /></a>
 
 </div>
 
@@ -91,4 +91,4 @@ Next.js 16, React 19, TypeScript, Supabase (Postgres, Auth, Storage), Tailwind C
 
 ---
 
-The source code is private. This repository holds screenshots and a short video. For a walkthrough or a demo for your store, message me on [LinkedIn](https://www.linkedin.com/in/mohammed-altounsi/).
+The source code is private. This repository holds screenshots and a short screen tour. For a walkthrough or a demo for your store, message me on [LinkedIn](https://www.linkedin.com/in/mohammed-altounsi/).

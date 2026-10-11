@@ -10,9 +10,9 @@
 
 تطبيق ويب لتسجيل شكاوى العملاء ومتابعتها للمتاجر الإلكترونية على سلة. بالعربي ومن اليمين لليسار.
 
-[النسخة التجريبية](https://complaints-saas-demo.vercel.app) · [فيديو جولة ٤٢ ثانية](media/features-42s.mp4)
+[النسخة التجريبية](https://complaints-saas-demo.vercel.app) · [جولة في الشاشات ٢٠ ثانية](media/tour-20s.mp4)
 
-<a href="media/features-42s.mp4"><img src="media/teaser-preview.gif" width="260" alt="لمحة عن التطبيق" /></a>
+<a href="media/tour-20s.mp4"><img src="media/tour-preview.gif" width="260" alt="لمحة عن التطبيق" /></a>
 
 </div>
 
