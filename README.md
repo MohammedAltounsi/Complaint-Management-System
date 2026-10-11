@@ -12,7 +12,7 @@ A web app for logging and handling customer complaints for online stores on Sall
 
 </div>
 
-To try it, open the demo and pick a role on the login screen: owner, quality manager, factory manager or customer service. Each role sees different screens. All names, phone numbers and orders in the demo are made up.
+To try it, open the demo and pick a role on the login screen: owner, quality manager, factory manager or customer service. Each role sees different screens. All names, phone numbers and orders in the demo are made up. Every form has sample-data chips that fill it in one tap.
 
 Built by **Mohammed Altounsi**, [LinkedIn](https://www.linkedin.com/in/mohammed-altounsi/).
 
@@ -47,13 +47,19 @@ Built by **Mohammed Altounsi**, [LinkedIn](https://www.linkedin.com/in/mohammed-
 - Each complaint is assigned to the quality team or the factory based on the issue type.
 - The assigned manager gets an email with the complaint number.
 
+### Dashboard and work list
+- The dashboard opens with open emergencies, four counts, the decisions waiting for you and a 30-day chart. Each count opens the list it counts.
+- One work list per role, grouped into emergency, late (past 72 hours) and within time. Emergencies and solved complaints have their own tabs.
+- On a complaint, back and next follow the list you opened it from.
+
 ### Emergencies
 - Emergency complaints always go to the quality manager and are shown in red at the top of each screen.
 - Collecting a product sample needs approval from two people. The approval record can't be edited.
+- Closing an emergency needs the word «تأكيد» typed in to confirm.
 
 ### Compensation
 - Each complaint records the compensation type, amount and a note.
-- A list shows compensation that hasn't been paid yet.
+- Two tabs: awaiting a decision and recorded, with one complaint per card.
 - A cost report breaks compensation down by month, product and batch.
 
 ### Reports
@@ -69,7 +75,8 @@ Built by **Mohammed Altounsi**, [LinkedIn](https://www.linkedin.com/in/mohammed-
 - Sign-ins are logged. An account is paused after repeated wrong passwords.
 - Orders arrive from Salla through webhooks, and a nightly job pulls any that were missed.
 - A health check reports the state of the Salla connection, the nightly job and storage use.
-- Built for phones first. Dark mode.
+- Uploaded images and PDFs are checked by their content, not only their file name.
+- Built for phones first: works down to 320 px wide, tap targets of at least 44 px, and pages slide in from the side you came from. Dark mode, a skip link and visible keyboard focus.
 
 ## Tech
 
